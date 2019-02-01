@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E206AD0B2204BA620056905B /* CommonSpear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E206ACFF2204BA610056905B /* CommonSpear.cpp */; };
+		E206AD0C2204BA620056905B /* Weapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E206AD022204BA610056905B /* Weapon.cpp */; };
+		E206AD0D2204BA620056905B /* WeaponFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E206AD042204BA610056905B /* WeaponFactory.cpp */; };
+		E206AD0E2204BA620056905B /* CommonSword.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E206AD082204BA620056905B /* CommonSword.cpp */; };
+		E206AD0F2204BA620056905B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E206AD092204BA620056905B /* main.cpp */; };
+		E206AD102204BA620056905B /* SimpleHammer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E206AD0A2204BA620056905B /* SimpleHammer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E206ACF32204BA450056905B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E206ACF52204BA450056905B /* hw1Git */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hw1Git; sourceTree = BUILT_PRODUCTS_DIR; };
+		E206ACFF2204BA610056905B /* CommonSpear.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CommonSpear.cpp; path = ../../CommonSpear.cpp; sourceTree = "<group>"; };
+		E206AD002204BA610056905B /* SimpleHammer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleHammer.h; path = ../../SimpleHammer.h; sourceTree = "<group>"; };
+		E206AD012204BA610056905B /* CommonSpear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonSpear.h; path = ../../CommonSpear.h; sourceTree = "<group>"; };
+		E206AD022204BA610056905B /* Weapon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Weapon.cpp; path = ../../Weapon.cpp; sourceTree = "<group>"; };
+		E206AD032204BA610056905B /* Weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Weapon.h; path = ../../Weapon.h; sourceTree = "<group>"; };
+		E206AD042204BA610056905B /* WeaponFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WeaponFactory.cpp; path = ../../WeaponFactory.cpp; sourceTree = "<group>"; };
+		E206AD052204BA620056905B /* WeaponFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeaponFactory.h; path = ../../WeaponFactory.h; sourceTree = "<group>"; };
+		E206AD062204BA620056905B /* CommonSword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonSword.h; path = ../../CommonSword.h; sourceTree = "<group>"; };
+		E206AD072204BA620056905B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		E206AD082204BA620056905B /* CommonSword.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CommonSword.cpp; path = ../../CommonSword.cpp; sourceTree = "<group>"; };
+		E206AD092204BA620056905B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../main.cpp; sourceTree = "<group>"; };
+		E206AD0A2204BA620056905B /* SimpleHammer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleHammer.cpp; path = ../../SimpleHammer.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E206ACF22204BA450056905B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E206ACEC2204BA450056905B = {
+			isa = PBXGroup;
+			children = (
+				E206ACF72204BA450056905B /* hw1Git */,
+				E206ACF62204BA450056905B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E206ACF62204BA450056905B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E206ACF52204BA450056905B /* hw1Git */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E206ACF72204BA450056905B /* hw1Git */ = {
+			isa = PBXGroup;
+			children = (
+				E206ACFF2204BA610056905B /* CommonSpear.cpp */,
+				E206AD012204BA610056905B /* CommonSpear.h */,
+				E206AD082204BA620056905B /* CommonSword.cpp */,
+				E206AD062204BA620056905B /* CommonSword.h */,
+				E206AD092204BA620056905B /* main.cpp */,
+				E206AD072204BA620056905B /* README.md */,
+				E206AD0A2204BA620056905B /* SimpleHammer.cpp */,
+				E206AD002204BA610056905B /* SimpleHammer.h */,
+				E206AD022204BA610056905B /* Weapon.cpp */,
+				E206AD032204BA610056905B /* Weapon.h */,
+				E206AD042204BA610056905B /* WeaponFactory.cpp */,
+				E206AD052204BA620056905B /* WeaponFactory.h */,
+			);
+			path = hw1Git;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E206ACF42204BA450056905B /* hw1Git */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E206ACFC2204BA450056905B /* Build configuration list for PBXNativeTarget "hw1Git" */;
+			buildPhases = (
+				E206ACF12204BA450056905B /* Sources */,
+				E206ACF22204BA450056905B /* Frameworks */,
+				E206ACF32204BA450056905B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hw1Git;
+			productName = hw1Git;
+			productReference = E206ACF52204BA450056905B /* hw1Git */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E206ACED2204BA450056905B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nick Loffer";
+				TargetAttributes = {
+					E206ACF42204BA450056905B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = E206ACF02204BA450056905B /* Build configuration list for PBXProject "hw1Git" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E206ACEC2204BA450056905B;
+			productRefGroup = E206ACF62204BA450056905B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E206ACF42204BA450056905B /* hw1Git */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E206ACF12204BA450056905B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E206AD0E2204BA620056905B /* CommonSword.cpp in Sources */,
+				E206AD102204BA620056905B /* SimpleHammer.cpp in Sources */,
+				E206AD0D2204BA620056905B /* WeaponFactory.cpp in Sources */,
+				E206AD0F2204BA620056905B /* main.cpp in Sources */,
+				E206AD0B2204BA620056905B /* CommonSpear.cpp in Sources */,
+				E206AD0C2204BA620056905B /* Weapon.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E206ACFA2204BA450056905B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E206ACFB2204BA450056905B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E206ACFD2204BA450056905B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E206ACFE2204BA450056905B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E206ACF02204BA450056905B /* Build configuration list for PBXProject "hw1Git" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E206ACFA2204BA450056905B /* Debug */,
+				E206ACFB2204BA450056905B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E206ACFC2204BA450056905B /* Build configuration list for PBXNativeTarget "hw1Git" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E206ACFD2204BA450056905B /* Debug */,
+				E206ACFE2204BA450056905B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E206ACED2204BA450056905B /* Project object */;
+}

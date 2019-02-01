@@ -1,5 +1,6 @@
 
-/* 
+
+/*
  * File:   main.cpp
  * Author: Javier <jrescobara@gmail.com> 
  *
@@ -36,6 +37,10 @@ int main(int argc, char** argv) {
     delete(weapon);
 
     weapon = WeaponFactory::getInstance()->getWeapon("spear");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
+    
+    weapon = WeaponFactory::getInstance()->getWeapon("simple hammer");
     simulateWeapon(weapon, armor);
     delete(weapon);
 
