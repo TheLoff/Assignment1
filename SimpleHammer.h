@@ -1,6 +1,6 @@
 /* 
- * File:   CommonSword.h
- * Author: Javier <jrescobara@gmail.com>
+ * File:   SimpleHammer.h
+ * Author: Nick <ndl17>
  * 
  * Created on September 25, 2017, 3:31 PM
  */

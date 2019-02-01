@@ -1,6 +1,6 @@
 /* 
- * File:   CommonSword.cpp
- * Author: Javier <jrescobara@gmail.com>
+ * File:   SimpleHammer.cpp
+ * Author: Nick <ndl17>
  *  
  */
 
