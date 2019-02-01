@@ -1,0 +1,71 @@
+(a)
+
+[master 4864dd9] Updating status.txt with message from 'git status' command
+ 1 file changed, 4 insertions(+)
+Nicks-MacBook-Pro-2:Assignment1 nickloffer$ git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 468 bytes | 468.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/TheLoff/Assignment1.git
+   c18da1d..4864dd9  master -> master]
+
+(b)
+
+7
+git rev-list --all --count or --log-size 
+
+(c)
+
+Date:   Thu Jan 10 16:45:38 2019 -0500
+ git log -- .gitignore
+
+(d)
+
+Allows for multiple people to work on the same or different problems
+of the main code at the same time without having to wait. "In parallel"
+
+Allows code to be tested and verified by others before merging code 
+together. 
+
+(e)
+
+Git Log is list of actions (commits) performed. 
+
+Git status shows the state of any directory including all branches. Including
+where the head is, differences
+
+//Displays paths that have differences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file//
+
+f) 
+
+git log -- .Weapon.h
+
+(G)
+
+git log --grep=file
+
+
+(h)
+
+Inheritance - a derived class receiving data and methods from it's ancestors starting with the base class. Some languages allow for multiple inheritance where child classes
+can receive methods/data from multiple classes - Java allows this. C++ doesn't.
+
+Polymorphism - the ability of a child class to take methods from a parent class and apply
+new definitions. They can share the same header, but perform different calculations or actions depending on the class - this can be done via overloading or overwriting the method. 
+
+Encapsulation - Specific data is paired with specific methods that operate on said
+data within its own class.  Allows for modular programs with specialized operations
+that can be reused. 
+
+
+(i)  Integration management, the manager pulls and reconciles conflicts from
+the developers public repository when branches of code are merged. 
+
+In the Dictator/LT format the developers work is pushed to LT's who do some conflict resolution, and then pushed to the Dictator for final approval. 
+
+(j)  There is no managerial hierarchy in a centralized workflow to give structure to operations.  Instead any worker will be competing for their vision of how to resolve a conflict which will lead to disruption to planning, the actual code, and issues between 
+employees. 
+
