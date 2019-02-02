@@ -14,6 +14,7 @@
 		E206AD0F2204BA620056905B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E206AD092204BA620056905B /* main.cpp */; };
 		E206AD102204BA620056905B /* SimpleHammer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E206AD0A2204BA620056905B /* SimpleHammer.cpp */; };
 		E206AD132204C41E0056905B /* CrazyRandomSword.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E206AD122204C41E0056905B /* CrazyRandomSword.cpp */; };
+		E206AD1A2206129E0056905B /* ThreeHit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E206AD182206129E0056905B /* ThreeHit.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +45,8 @@
 		E206AD0A2204BA620056905B /* SimpleHammer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleHammer.cpp; path = ../../SimpleHammer.cpp; sourceTree = "<group>"; };
 		E206AD112204C41E0056905B /* CrazyRandomSword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CrazyRandomSword.h; path = ../../CrazyRandomSword.h; sourceTree = "<group>"; };
 		E206AD122204C41E0056905B /* CrazyRandomSword.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CrazyRandomSword.cpp; path = ../../CrazyRandomSword.cpp; sourceTree = "<group>"; };
+		E206AD182206129E0056905B /* ThreeHit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ThreeHit.cpp; path = ../../ThreeHit.cpp; sourceTree = "<group>"; };
+		E206AD192206129E0056905B /* ThreeHit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThreeHit.h; path = ../../ThreeHit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,16 +79,18 @@
 		E206ACF72204BA450056905B /* hw1Git */ = {
 			isa = PBXGroup;
 			children = (
+				E206AD092204BA620056905B /* main.cpp */,
 				E206ACFF2204BA610056905B /* CommonSpear.cpp */,
 				E206AD012204BA610056905B /* CommonSpear.h */,
 				E206AD082204BA620056905B /* CommonSword.cpp */,
 				E206AD062204BA620056905B /* CommonSword.h */,
-				E206AD092204BA620056905B /* main.cpp */,
 				E206AD072204BA620056905B /* README.md */,
 				E206AD0A2204BA620056905B /* SimpleHammer.cpp */,
 				E206AD002204BA610056905B /* SimpleHammer.h */,
 				E206AD122204C41E0056905B /* CrazyRandomSword.cpp */,
 				E206AD112204C41E0056905B /* CrazyRandomSword.h */,
+				E206AD182206129E0056905B /* ThreeHit.cpp */,
+				E206AD192206129E0056905B /* ThreeHit.h */,
 				E206AD022204BA610056905B /* Weapon.cpp */,
 				E206AD032204BA610056905B /* Weapon.h */,
 				E206AD042204BA610056905B /* WeaponFactory.cpp */,
@@ -152,6 +157,7 @@
 			files = (
 				E206AD132204C41E0056905B /* CrazyRandomSword.cpp in Sources */,
 				E206AD0E2204BA620056905B /* CommonSword.cpp in Sources */,
+				E206AD1A2206129E0056905B /* ThreeHit.cpp in Sources */,
 				E206AD102204BA620056905B /* SimpleHammer.cpp in Sources */,
 				E206AD0D2204BA620056905B /* WeaponFactory.cpp in Sources */,
 				E206AD0F2204BA620056905B /* main.cpp in Sources */,

@@ -8,6 +8,7 @@
 #include <string>
 #include "Weapon.h"
 #include <time.h>
+#include <math.h>
 
 #ifndef CRAZYRANDOMSWORD_H
 #define CRAZYRANDOMSWORD_H
@@ -25,7 +26,7 @@ public:
     {
         // randomize hit points 7-100
         srand(time(0));
-        hitPoints = (rand() % 100 + 7);
+        hitPoints = (rand() % 93 + 7);
     }
 
     virtual ~CrazyRandomSword(){};
