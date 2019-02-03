@@ -14,7 +14,8 @@ To https://github.com/TheLoff/Assignment1.git
 
 (b)
 
-7
+7 
+
 git rev-list --all --count or --log-size 
 
 (c)
@@ -27,21 +28,18 @@ Date:   Thu Jan 10 16:45:38 2019 -0500
 Allows for multiple people to work on the same or different problems
 of the main code at the same time without having to wait. "In parallel"
 
-Allows code to be tested and verified by others before merging code 
-together. 
+Allows code to be tested and verified by others before merging code. 
 
 (e)
 
 Git Log is list of actions (commits) performed. 
 
-Git status shows the state of any directory including all branches. Including
-where the head is, differences
+Git status shows the state of any directory including all branches. Shows what files the user has staged, un-staged, and untracked 
 
-//Displays paths that have differences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file//
 
 f) 
 
-git log -- .Weapon.h
+git log --Weapon.h  - generic git log --<file>
 
 (G)
 
@@ -57,15 +55,28 @@ Polymorphism - the ability of a child class to take methods from a parent class 
 new definitions. They can share the same header, but perform different calculations or actions depending on the class - this can be done via overloading or overwriting the method. 
 
 Encapsulation - Specific data is paired with specific methods that operate on said
-data within its own class.  Allows for modular programs with specialized operations
-that can be reused. 
-
+data within its own class that hides access to the data from the user or other classes that do not need direct access to the data. 
 
 (i)  Integration management, the manager pulls and reconciles conflicts from
 the developers public repository when branches of code are merged. 
 
 In the Dictator/LT format the developers work is pushed to LT's who do some conflict resolution, and then pushed to the Dictator for final approval. 
 
-(j)  There is no managerial hierarchy in a centralized workflow to give structure to operations.  Instead any worker will be competing for their vision of how to resolve a conflict which will lead to disruption to planning, the actual code, and issues between 
-employees. 
+(j)  There is no managerial hierarchy in a centralized workflow to give structure to logical lines of operations.  IE there is no agreed upon plan, no delegation of workflows, no precedence of tasks.
+
+Developers will be competing for their vision of how to resolve a conflict. This will lead to disruption to planning, competing implementation of code, and issues between employees.  
+
+
+OOP question: 
+
+The game is using both polymorphism and encapsulation.  There are many types
+of weapons which all derive from the same base class, but have different functionality although they follow the same basic format for their data, ie damage, and specific actions. This allows for commonality, reusable formats, and a structure for other developers to use.
+
+The data is encapsulated as there is no direct access to the data by the user.  Weapons are created through a weaponsFactory class and there is no direct public method to set/access the data on the weapons.  
+
+
+
+
+
+
 
